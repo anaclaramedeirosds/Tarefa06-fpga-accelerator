@@ -1,0 +1,35 @@
+# Build artifacts
+/build/
+*.bit
+*.bin
+*.o
+*.d
+*.elf
+*.v
+*.sv
+
+# FPGA tool files
+*.json
+*.ys
+*.blif
+*.fasm
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+
+# Checkpoints de modelo grandes
+*.h5
+*.pb
+*.ckpt
